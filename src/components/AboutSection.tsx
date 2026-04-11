@@ -30,7 +30,7 @@ export default function AboutSection() {
               className="glass-card p-6 text-center hover:border-primary/40 transition-all duration-300 group"
             >
               <div className="w-28 h-28 rounded-full overflow-hidden mx-auto mb-5 ring-2 ring-primary/20 group-hover:ring-primary/50 transition">
-                <img src={t.image} alt={t.name} className="w-full h-full object-cover" />
+                <img src={t.image} alt={t.name} className="w-full h-full object-cover scale-125" />
               </div>
               <h3 className="font-heading font-semibold text-foreground">{t.name}</h3>
               <p className="text-primary text-sm font-medium mb-2">{t.role}</p>
