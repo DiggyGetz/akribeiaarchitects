@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const navLinks = [
   { label: "Approach", href: "#approach" },
@@ -27,7 +28,8 @@ export default function Header() {
       }`}
     >
       <div className="container mx-auto flex items-center justify-between py-5 px-6">
-        <a href="#" className="font-heading text-lg text-foreground tracking-tight">
+        <a href="#" className="flex items-center gap-2.5 font-heading text-lg text-foreground tracking-tight">
+          <img src={logo} alt="Jr Core Advisors" className="h-8 w-8 object-contain" />
           Jr Core Advisors
         </a>
 

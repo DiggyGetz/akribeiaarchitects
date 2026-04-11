@@ -31,7 +31,7 @@ export default function ServicesSection() {
               key={s.title}
               className="bg-background p-8 group hover:bg-secondary/50 transition-colors duration-500"
             >
-              <s.icon className="text-muted-foreground group-hover:text-foreground transition-colors duration-500 mb-6" size={20} strokeWidth={1.5} />
+              <s.icon className="text-accent group-hover:text-foreground transition-colors duration-500 mb-6" size={20} strokeWidth={1.5} />
               <h3 className="font-heading text-base text-foreground mb-3">
                 {s.title}
               </h3>
