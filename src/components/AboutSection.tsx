@@ -26,8 +26,10 @@ export default function AboutSection() {
               <div className="w-40 h-40 rounded-full overflow-hidden mx-auto mb-6 grayscale hover:grayscale-0 transition-all duration-700">
                 <img src={t.image} alt={t.name} className="w-full h-full object-cover" />
               </div>
-              <h3 className="font-heading text-lg text-foreground mb-1">{t.name}</h3>
-              <p className="font-body text-xs tracking-widest uppercase text-muted-foreground mb-3">{t.role}</p>
+              <h3 className="font-heading text-lg text-foreground mb-1">
+                {t.name} <span className="text-accent">·</span>
+              </h3>
+              <p className="font-body text-xs tracking-widest uppercase text-accent/80 mb-3">{t.role}</p>
               <p className="font-body text-sm text-muted-foreground leading-relaxed">{t.bio}</p>
             </div>
           ))}

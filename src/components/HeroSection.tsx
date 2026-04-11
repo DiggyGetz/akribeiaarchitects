@@ -1,6 +1,6 @@
 import { ChevronDown } from "lucide-react";
 import { useScrollFadeIn } from "@/hooks/useScrollFadeIn";
-import logo from "@/assets/logo.png";
+import logo from "@/assets/logo-clean.png";
 
 export default function HeroSection() {
   const ref = useScrollFadeIn();
