@@ -15,9 +15,16 @@ export default function HeroSection() {
         <h1 className="font-heading font-normal text-4xl sm:text-5xl lg:text-6xl leading-[1.15] text-foreground mb-8">
           We build the technical systems that keep your finances organized.
         </h1>
-        <p className="font-body text-base text-muted-foreground max-w-xl mx-auto leading-relaxed mb-16">
+        <p className="font-body text-base text-muted-foreground max-w-xl mx-auto leading-relaxed mb-12">
           Financial architecture for businesses that demand precision, clarity, and infrastructure that scales.
         </p>
+        <a
+          href="#contact"
+          className="inline-block mb-8 px-8 py-3 text-sm font-body tracking-widest uppercase border border-accent text-accent hover:bg-accent hover:text-white transition-all duration-500"
+        >
+          Schedule a Consultation
+        </a>
+        <br />
         <a
           href="#approach"
           className="inline-flex items-center gap-2 text-sm font-body tracking-widest uppercase text-muted-foreground hover:text-foreground transition-colors duration-500"
