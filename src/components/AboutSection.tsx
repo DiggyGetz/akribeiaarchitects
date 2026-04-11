@@ -1,11 +1,10 @@
 import { useScrollFadeIn } from "@/hooks/useScrollFadeIn";
-import { User } from "lucide-react";
+import dignanImg from "@/assets/dignan-getz.png";
+import claytonImg from "@/assets/clayton-cotrell.png";
 
 const team = [
-  { name: "Jonathan Reed", role: "Founder & CEO", bio: "25+ years in institutional portfolio management" },
-  { name: "Maria Chen", role: "Chief Investment Officer", bio: "Former VP at Goldman Sachs Asset Management" },
-  { name: "David Okafor", role: "Director, Tax Strategy", bio: "CPA with expertise in high-net-worth taxation" },
-  { name: "Sarah Kim", role: "Head of Estate Planning", bio: "Trust and estate attorney, JD from Columbia Law" },
+  { name: "Dignan Getz", role: "Co-Founder", bio: "Visionary leader driving strategic growth and client partnerships", image: dignanImg },
+  { name: "Clayton Cotrell", role: "Co-Founder", bio: "Expert in institutional portfolio management and wealth strategy", image: claytonImg },
 ];
 
 export default function AboutSection() {
@@ -18,20 +17,20 @@ export default function AboutSection() {
           Our Team
         </p>
         <h2 className="font-heading font-bold text-3xl sm:text-4xl text-center text-foreground mb-4">
-          Meet the Advisors
+          Meet the Founders
         </h2>
         <p className="text-muted-foreground text-center max-w-2xl mx-auto mb-16">
           A team of seasoned professionals dedicated to your financial success.
         </p>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid sm:grid-cols-2 gap-6 max-w-2xl mx-auto">
           {team.map((t) => (
             <div
               key={t.name}
               className="glass-card p-6 text-center hover:border-primary/40 transition-all duration-300 group"
             >
-              <div className="w-24 h-24 rounded-full bg-secondary flex items-center justify-center mx-auto mb-5 group-hover:bg-primary/10 transition">
-                <User className="text-muted-foreground" size={36} />
+              <div className="w-28 h-28 rounded-full overflow-hidden mx-auto mb-5 ring-2 ring-primary/20 group-hover:ring-primary/50 transition">
+                <img src={t.image} alt={t.name} className="w-full h-full object-cover" />
               </div>
               <h3 className="font-heading font-semibold text-foreground">{t.name}</h3>
               <p className="text-primary text-sm font-medium mb-2">{t.role}</p>
