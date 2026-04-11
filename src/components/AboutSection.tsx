@@ -1,6 +1,6 @@
 import { useScrollFadeIn } from "@/hooks/useScrollFadeIn";
-import dignanImg from "@/assets/dignan-getz.png";
-import claytonImg from "@/assets/clayton-cotrell.png";
+import dignanImg from "@/assets/dignan-getz-clean.jpg";
+import claytonImg from "@/assets/clayton-cotrell-clean.jpg";
 
 const team = [
   { name: "Dignan Getz", role: "Co-Founder", bio: "Visionary leader driving strategic growth and client partnerships", image: dignanImg },
