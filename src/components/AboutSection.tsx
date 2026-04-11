@@ -4,7 +4,7 @@ import claytonImg from "@/assets/clayton-cotrell-clean.jpg";
 
 const team = [
   { name: "Dignan Getz", role: "Co-Founder", bio: "Strategic vision and client partnerships — designing financial systems that scale.", image: dignanImg },
-  { name: "Clayton Cotrell", role: "Co-Founder", bio: "Technical architecture and implementation — building the infrastructure behind the numbers.", image: claytonImg },
+  { name: "Clayton Cottrell", role: "Co-Founder", bio: "Technical architecture and implementation — building the infrastructure behind the numbers.", image: claytonImg },
 ];
 
 export default function AboutSection() {
