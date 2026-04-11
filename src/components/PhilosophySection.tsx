@@ -10,7 +10,7 @@ export default function PhilosophySection() {
           The Architect's Approach
         </p>
         <h2 className="font-heading font-normal text-3xl sm:text-4xl text-center text-foreground leading-snug mb-8">
-          Financial Infrastructure, <br className="hidden sm:block" />
+          Financial <span className="text-accent">Infrastructure</span>, <br className="hidden sm:block" />
           Not Data Entry
         </h2>
         <div className="space-y-6 text-center">

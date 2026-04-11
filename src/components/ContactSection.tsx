@@ -101,7 +101,7 @@ export default function ContactSection() {
               className="inline-flex items-center gap-3 font-body text-xs tracking-widest uppercase text-foreground hover:text-muted-foreground transition-colors duration-500 pt-4"
             >
               Send Message
-              <ArrowRight size={14} />
+              <ArrowRight size={14} className="text-accent" />
             </button>
           </form>
         )}
