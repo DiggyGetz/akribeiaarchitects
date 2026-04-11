@@ -1,55 +1,41 @@
-import { Briefcase, PiggyBank, Receipt, ScrollText } from "lucide-react";
+import { LayoutDashboard, DatabaseZap, Wallet, TrendingUp, UserCog, Globe, Cpu, Code2 } from "lucide-react";
 import { useScrollFadeIn } from "@/hooks/useScrollFadeIn";
 
 const services = [
-  {
-    icon: Briefcase,
-    title: "Wealth Management",
-    desc: "Customized portfolio construction across asset classes with active risk management and quarterly rebalancing.",
-  },
-  {
-    icon: PiggyBank,
-    title: "Retirement Planning",
-    desc: "Comprehensive income strategies including 401(k) optimization, IRA rollovers, and Social Security timing.",
-  },
-  {
-    icon: Receipt,
-    title: "Tax Strategy",
-    desc: "Proactive tax-loss harvesting, Roth conversions, and entity structuring to minimize your lifetime tax burden.",
-  },
-  {
-    icon: ScrollText,
-    title: "Estate Planning",
-    desc: "Trust design, charitable giving strategies, and seamless wealth transfer frameworks for your family.",
-  },
+  { icon: LayoutDashboard, title: "Financial Dashboards", desc: "Real-time visibility into the metrics that matter most to your business." },
+  { icon: DatabaseZap, title: "Data Cleaning & Reconciliation", desc: "Transform messy books into pristine, audit-ready financial records." },
+  { icon: Wallet, title: "Specialized Budgeting", desc: "The Bucket System — a structured approach to allocating capital with precision." },
+  { icon: TrendingUp, title: "Cash Flow Architecture", desc: "Engineered cash flow systems that ensure liquidity and long-term stability." },
+  { icon: UserCog, title: "Fractional Controller Services", desc: "Senior-level financial oversight without the full-time overhead." },
+  { icon: Globe, title: "Financial Web Portals", desc: "Custom client-facing portals for transparent, real-time financial reporting." },
+  { icon: Cpu, title: "AI Implementation", desc: "Intelligent automation that eliminates repetitive tasks and surfaces insights." },
+  { icon: Code2, title: "Bespoke Website Building", desc: "High-end digital presence designed for firms that value craftsmanship." },
 ];
 
 export default function ServicesSection() {
   const ref = useScrollFadeIn();
 
   return (
-    <section id="services" className="py-24">
+    <section id="services" className="py-32 border-t border-border">
       <div ref={ref} className="fade-in-section container mx-auto px-6">
-        <p className="text-primary font-heading font-semibold text-sm tracking-[0.2em] uppercase text-center mb-3">
-          What We Do
+        <p className="font-body text-xs tracking-widest uppercase text-muted-foreground mb-8 text-center">
+          Core Capabilities
         </p>
-        <h2 className="font-heading font-bold text-3xl sm:text-4xl text-center text-foreground mb-16">
-          Comprehensive Financial Services
+        <h2 className="font-heading font-normal text-3xl sm:text-4xl text-center text-foreground mb-20">
+          What We Build
         </h2>
 
-        <div className="grid sm:grid-cols-2 gap-6 max-w-4xl mx-auto">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-px bg-border max-w-5xl mx-auto border border-border">
           {services.map((s) => (
             <div
               key={s.title}
-              className="glass-card p-8 hover:border-primary/40 transition-all duration-300 group"
+              className="bg-background p-8 group hover:bg-secondary/50 transition-colors duration-500"
             >
-              <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-5 group-hover:bg-primary/20 transition">
-                <s.icon className="text-primary" size={24} />
-              </div>
-              <h3 className="font-heading font-semibold text-lg text-foreground mb-2">
+              <s.icon className="text-muted-foreground group-hover:text-foreground transition-colors duration-500 mb-6" size={20} strokeWidth={1.5} />
+              <h3 className="font-heading text-base text-foreground mb-3">
                 {s.title}
               </h3>
-              <p className="text-muted-foreground text-sm leading-relaxed">{s.desc}</p>
+              <p className="font-body text-sm text-muted-foreground leading-relaxed">{s.desc}</p>
             </div>
           ))}
         </div>

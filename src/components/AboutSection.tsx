@@ -3,38 +3,32 @@ import dignanImg from "@/assets/dignan-getz-clean.jpg";
 import claytonImg from "@/assets/clayton-cotrell-clean.jpg";
 
 const team = [
-  { name: "Dignan Getz", role: "Co-Founder", bio: "Visionary leader driving strategic growth and client partnerships", image: dignanImg },
-  { name: "Clayton Cotrell", role: "Co-Founder", bio: "Expert in institutional portfolio management and wealth strategy", image: claytonImg },
+  { name: "Dignan Getz", role: "Co-Founder", bio: "Strategic vision and client partnerships — designing financial systems that scale.", image: dignanImg },
+  { name: "Clayton Cotrell", role: "Co-Founder", bio: "Technical architecture and implementation — building the infrastructure behind the numbers.", image: claytonImg },
 ];
 
 export default function AboutSection() {
   const ref = useScrollFadeIn();
 
   return (
-    <section id="about" className="py-24 bg-card">
+    <section id="about" className="py-32 border-t border-border">
       <div ref={ref} className="fade-in-section container mx-auto px-6">
-        <p className="text-primary font-heading font-semibold text-sm tracking-[0.2em] uppercase text-center mb-3">
-          Our Team
+        <p className="font-body text-xs tracking-widest uppercase text-muted-foreground mb-8 text-center">
+          Leadership
         </p>
-        <h2 className="font-heading font-bold text-3xl sm:text-4xl text-center text-foreground mb-4">
+        <h2 className="font-heading font-normal text-3xl sm:text-4xl text-center text-foreground mb-20">
           Meet the Founders
         </h2>
-        <p className="text-muted-foreground text-center max-w-2xl mx-auto mb-16">
-          A team of seasoned professionals dedicated to your financial success.
-        </p>
 
-        <div className="grid sm:grid-cols-2 gap-6 max-w-2xl mx-auto">
+        <div className="grid sm:grid-cols-2 gap-16 max-w-2xl mx-auto">
           {team.map((t) => (
-            <div
-              key={t.name}
-              className="glass-card p-6 text-center hover:border-primary/40 transition-all duration-300 group"
-            >
-              <div className="w-28 h-28 rounded-full overflow-hidden mx-auto mb-5 ring-2 ring-primary/20 group-hover:ring-primary/50 transition">
+            <div key={t.name} className="text-center">
+              <div className="w-40 h-40 rounded-full overflow-hidden mx-auto mb-6 grayscale hover:grayscale-0 transition-all duration-700">
                 <img src={t.image} alt={t.name} className="w-full h-full object-cover" />
               </div>
-              <h3 className="font-heading font-semibold text-foreground">{t.name}</h3>
-              <p className="text-primary text-sm font-medium mb-2">{t.role}</p>
-              <p className="text-muted-foreground text-xs">{t.bio}</p>
+              <h3 className="font-heading text-lg text-foreground mb-1">{t.name}</h3>
+              <p className="font-body text-xs tracking-widest uppercase text-muted-foreground mb-3">{t.role}</p>
+              <p className="font-body text-sm text-muted-foreground leading-relaxed">{t.bio}</p>
             </div>
           ))}
         </div>

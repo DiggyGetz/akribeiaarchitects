@@ -1,42 +1,28 @@
-import heroBg from "@/assets/hero-bg.jpg";
+import { ChevronDown } from "lucide-react";
 import { useScrollFadeIn } from "@/hooks/useScrollFadeIn";
 
 export default function HeroSection() {
   const ref = useScrollFadeIn();
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      <div
-        className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: `url(${heroBg})` }}
-      />
-      <div className="absolute inset-0 bg-gradient-to-b from-background/80 via-background/60 to-background" />
-
-      <div ref={ref} className="fade-in-section relative z-10 container mx-auto px-6 text-center max-w-4xl pt-24">
-        <p className="text-primary font-heading font-semibold text-sm tracking-[0.2em] uppercase mb-6">
-          Wealth Management · Tax Strategy · Estate Planning
+    <section className="min-h-screen flex flex-col items-center justify-center px-6">
+      <div ref={ref} className="fade-in-section max-w-3xl text-center">
+        <p className="font-body text-xs tracking-widest uppercase text-muted-foreground mb-8">
+          Jr Core Advisors
         </p>
-        <h1 className="font-heading font-bold text-4xl sm:text-5xl lg:text-6xl leading-tight text-foreground mb-6">
-          Precision Wealth Management{" "}
-          <span className="text-gradient-gold">for the Next Generation</span>
+        <h1 className="font-heading font-normal text-4xl sm:text-5xl lg:text-6xl leading-[1.15] text-foreground mb-8">
+          We build the technical systems that keep your finances organized.
         </h1>
-        <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-10">
-          We combine institutional-grade strategies with personalized guidance to protect, grow, and transfer your wealth across generations.
+        <p className="font-body text-base text-muted-foreground max-w-xl mx-auto leading-relaxed mb-16">
+          Financial architecture for businesses that demand precision, clarity, and infrastructure that scales.
         </p>
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <a
-            href="#contact"
-            className="inline-block bg-primary text-primary-foreground font-semibold px-8 py-4 rounded-lg hover:brightness-110 transition text-base"
-          >
-            Schedule a Consultation
-          </a>
-          <a
-            href="#services"
-            className="inline-block border border-border text-foreground font-semibold px-8 py-4 rounded-lg hover:bg-secondary transition text-base"
-          >
-            Explore Our Services
-          </a>
-        </div>
+        <a
+          href="#approach"
+          className="inline-flex items-center gap-2 text-sm font-body tracking-widest uppercase text-muted-foreground hover:text-foreground transition-colors duration-500"
+        >
+          Explore
+          <ChevronDown size={16} className="animate-bounce" style={{ animationDuration: "2s" }} />
+        </a>
       </div>
     </section>
   );
