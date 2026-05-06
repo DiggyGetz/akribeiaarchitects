@@ -29,8 +29,8 @@ export default function Header() {
     >
       <div className="container mx-auto flex items-center justify-between py-5 px-6">
         <a href="#" className="flex items-center gap-2.5 font-heading text-lg text-foreground tracking-tight">
-          <img src={logo} alt="Jr Core Advisors" className="h-8 w-8 object-contain" />
-          Jr Core Advisors
+          <img src={logo} alt="Akribeia Architects" className="h-8 w-8 object-contain" />
+          Akribeia Architects
         </a>
 
         <nav className="hidden md:flex items-center gap-10">
