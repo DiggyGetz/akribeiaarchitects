@@ -6,8 +6,8 @@ export default function Footer() {
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
           <span className="flex items-center gap-2.5 font-heading text-lg text-foreground">
-            <img src={logo} alt="Jr Core Advisors" className="h-8 w-8 object-contain" />
-            Jr Core Advisors
+            <img src={logo} alt="Akribeia Architects" className="h-8 w-8 object-contain" />
+            Akribeia Architects
           </span>
           <div className="flex gap-10 text-xs font-body tracking-widest uppercase text-muted-foreground">
             <a href="#approach" className="hover:text-foreground transition-colors duration-500">Approach</a>
@@ -16,7 +16,7 @@ export default function Footer() {
             <a href="#contact" className="hover:text-foreground transition-colors duration-500">Contact</a>
           </div>
           <p className="text-xs font-body text-muted-foreground">
-            © 2026 Jr Core Advisors
+            © 2026 Akribeia Architects
           </p>
         </div>
       </div>

@@ -8,9 +8,9 @@ export default function HeroSection() {
   return (
     <section className="min-h-screen flex flex-col items-center justify-center px-6">
       <div ref={ref} className="fade-in-section max-w-3xl text-center">
-        <img src={logo} alt="Jr Core Advisors" className="h-16 w-16 object-contain mx-auto mb-8" />
+        <img src={logo} alt="Akribeia Architects" className="h-16 w-16 object-contain mx-auto mb-8" />
         <p className="font-body text-xs tracking-widest uppercase text-accent mb-8">
-          Jr Core Advisors
+          Akribeia Architects
         </p>
         <h1 className="font-heading font-normal text-4xl sm:text-5xl lg:text-6xl leading-[1.15] text-foreground mb-8">
           We build the technical systems that keep your finances organized.
