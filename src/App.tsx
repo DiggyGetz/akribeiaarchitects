@@ -8,6 +8,9 @@ import NotFound from "./pages/NotFound.tsx";
 
 const queryClient = new QueryClient();
 
+// Treat any non-root path as the landing page so the single-page site renders
+// correctly when the static build is hosted at an unknown subpath. NotFound is
+// kept reachable via an explicit route for genuine unknown app routes.
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
@@ -16,8 +19,9 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-          <Route path="*" element={<NotFound />} />
+          <Route path="/__not-found" element={<NotFound />} />
+          {/* Catch-all renders Index so subpath-hosted previews still show the landing page. */}
+          <Route path="*" element={<Index />} />
         </Routes>
       </BrowserRouter>
     </TooltipProvider>
