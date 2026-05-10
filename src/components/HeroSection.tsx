@@ -11,8 +11,13 @@ export default function HeroSection() {
     >
       <div
         aria-hidden
-        className="absolute inset-0 bg-cover [background-position:65%_22%] sm:[background-position:60%_28%]"
-        style={{ backgroundImage: `url(${discobolus})` }}
+        className="absolute inset-0 bg-no-repeat opacity-90"
+        style={{
+          backgroundImage: `url(${discobolus})`,
+          backgroundSize: "auto 82%",
+          backgroundPosition: "center center",
+          backgroundColor: "hsl(217 40% 9%)",
+        }}
       />
       <div
         aria-hidden

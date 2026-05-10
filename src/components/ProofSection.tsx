@@ -14,8 +14,13 @@ export default function ProofSection() {
     >
       <div
         aria-hidden
-        className="absolute inset-0 bg-cover opacity-[0.14]"
-        style={{ backgroundImage: `url(${discobolus})`, backgroundPosition: "center 30%" }}
+        className="absolute inset-0 bg-no-repeat opacity-[0.14]"
+        style={{
+          backgroundImage: `url(${discobolus})`,
+          backgroundSize: "auto 82%",
+          backgroundPosition: "center center",
+          backgroundColor: "hsl(217 42% 8%)",
+        }}
       />
       <div
         aria-hidden
