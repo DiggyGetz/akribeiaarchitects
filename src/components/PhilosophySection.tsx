@@ -1,6 +1,6 @@
 import { useScrollFadeIn } from "@/hooks/useScrollFadeIn";
-import DiscobolusMark from "@/components/DiscobolusMark";
 import discobolus from "@/assets/discobolus-museum.jpg";
+import logo from "@/assets/logo-clean.png";
 
 export default function PhilosophySection() {
   const ref = useScrollFadeIn();
@@ -22,7 +22,7 @@ export default function PhilosophySection() {
       />
       <div ref={ref} className="fade-in-section relative container mx-auto px-6 max-w-3xl">
         <div className="flex justify-center mb-6">
-          <DiscobolusMark className="h-8 w-8 text-accent" title="Discobolus mark" />
+          <img src={logo} alt="Akribeia Discobolus mark" width={32} height={32} className="h-8 w-8 object-contain" />
         </div>
         <p className="label-eyebrow mb-6 text-center">The Architect's Approach</p>
         <h2 className="font-heading font-normal text-3xl sm:text-4xl text-center text-foreground leading-snug mb-10">
