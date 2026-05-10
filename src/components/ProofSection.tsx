@@ -1,6 +1,6 @@
 import { useScrollFadeIn } from "@/hooks/useScrollFadeIn";
-import DiscobolusMark from "@/components/DiscobolusMark";
 import discobolus from "@/assets/discobolus-museum.jpg";
+import logo from "@/assets/logo-clean.png";
 
 const CALENDLY = "https://calendly.com/dignangetz";
 
@@ -32,7 +32,7 @@ export default function ProofSection() {
 
       <div ref={ref} className="fade-in-section relative container mx-auto px-6 max-w-4xl text-center">
         <div className="flex justify-center mb-8">
-          <DiscobolusMark className="h-10 w-10 text-accent" title="Discobolus mark" />
+          <img src={logo} alt="Akribeia Discobolus mark" width={40} height={40} className="h-10 w-10 object-contain" />
         </div>
         <p className="font-body text-xs tracking-widest uppercase text-accent mb-6">
           Founding Clients
