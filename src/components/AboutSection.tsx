@@ -1,7 +1,7 @@
 import { useScrollFadeIn } from "@/hooks/useScrollFadeIn";
 import dignanImg from "@/assets/dignan-getz-clean.jpg";
-import DiscobolusMark from "@/components/DiscobolusMark";
 import discobolus from "@/assets/discobolus-museum.jpg";
+import logo from "@/assets/logo-clean.png";
 
 export default function AboutSection() {
   const ref = useScrollFadeIn();
@@ -25,7 +25,7 @@ export default function AboutSection() {
         <div className="grid md:grid-cols-2 gap-16 items-start mb-24">
           <div>
             <div className="mb-6">
-              <DiscobolusMark className="h-8 w-8 text-accent" title="Discobolus mark" />
+              <img src={logo} alt="Akribeia Discobolus mark" width={32} height={32} className="h-8 w-8 object-contain" />
             </div>
             <p className="label-eyebrow mb-6">Why Akribeia</p>
             <h2 className="font-heading font-normal text-3xl sm:text-4xl text-foreground mb-8 leading-snug">
