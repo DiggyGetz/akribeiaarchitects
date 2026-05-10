@@ -9,8 +9,13 @@ export default function PhilosophySection() {
     <section id="approach" className="relative py-32 border-t border-border overflow-hidden">
       <div
         aria-hidden
-        className="absolute inset-0 bg-cover bg-center opacity-[0.10]"
-        style={{ backgroundImage: `url(${discobolus})` }}
+        className="absolute inset-0 bg-no-repeat opacity-[0.10]"
+        style={{
+          backgroundImage: `url(${discobolus})`,
+          backgroundSize: "auto 82%",
+          backgroundPosition: "center center",
+          backgroundColor: "hsl(217 40% 9%)",
+        }}
       />
       <div
         aria-hidden
