@@ -30,7 +30,7 @@ export default function HeroSection() {
               "0 1px 2px hsl(217 40% 5% / 0.95), 0 2px 12px hsl(217 40% 5% / 0.85), 0 0 18px hsl(217 40% 5% / 0.6)",
           }}
         >
-          The skeleton behind the foundation.
+          ​
         </p>
         <h1 className="font-heading font-semibold text-4xl sm:text-5xl lg:text-6xl leading-[1.1] text-foreground mb-10">
           Nothing stands without a <span className="text-accent">foundation.</span>
@@ -40,7 +40,7 @@ export default function HeroSection() {
           — so it actually does.
         </p>
         <p className="font-body text-sm text-foreground/80 max-w-2xl mx-auto leading-relaxed mb-14">
-          Hours back in your week. Leads that don't slip. Books that close themselves.
+          ​
         </p>
 
         <div className="flex justify-center mb-12">
@@ -48,7 +48,7 @@ export default function HeroSection() {
             href={CALENDLY}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block px-8 py-3 text-sm font-body font-semibold tracking-widest uppercase border border-accent bg-accent text-accent-foreground hover:bg-accent/90 transition-all duration-500 shadow-[0_8px_30px_-8px_hsl(32_42%_30%/0.5)]"
+            className="inline-block px-8 py-3 text-sm font-body font-semibold tracking-widest uppercase border border-accent bg-accent text-accent-foreground hover:bg-accent/90 transition-all duration-500 shadow-[0_8px_30px_-8px_hsl(32_42%_30%/0.5)] text-slate-50"
           >
             Book a Free Walkthrough
           </a>
