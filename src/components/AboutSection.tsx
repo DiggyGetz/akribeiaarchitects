@@ -1,5 +1,6 @@
 import { useScrollFadeIn } from "@/hooks/useScrollFadeIn";
 import dignanImg from "@/assets/dignan-getz-clean.jpg";
+import founder2Img from "@/assets/founder-2.png";
 import discobolus from "@/assets/discobolus-museum.jpg";
 import logo from "@/assets/logo-clean.png";
 
@@ -72,40 +73,69 @@ export default function AboutSection() {
         </div>
 
         <div className="border-t border-border pt-20">
-          <p className="label-eyebrow mb-6 text-center">The Founder</p>
+          <p className="label-eyebrow mb-6 text-center">The Founders</p>
 
-          <div className="max-w-2xl mx-auto text-center">
-            <div className="relative w-44 h-44 mx-auto mb-8">
-              <div
-                aria-hidden
-                className="absolute -inset-2 rounded-full bg-accent/10 blur-xl"
-              />
-              <div className="relative w-44 h-44 rounded-full overflow-hidden ring-1 ring-accent/30 grayscale hover:grayscale-0 transition-all duration-700 shadow-[0_15px_45px_-15px_hsl(217_60%_4%/0.8)]">
-                <img
-                  src={dignanImg}
-                  alt="Portrait of Dignan Getz, founder of Akribeia"
-                  width={176}
-                  height={176}
-                  loading="lazy"
-                  className="w-full h-full object-cover"
+          <div className="max-w-5xl mx-auto grid sm:grid-cols-2 gap-16 items-start">
+            <div className="text-center">
+              <div className="relative w-44 h-44 mx-auto mb-8">
+                <div
+                  aria-hidden
+                  className="absolute -inset-2 rounded-full bg-accent/10 blur-xl"
                 />
+                <div className="relative w-44 h-44 rounded-full overflow-hidden ring-1 ring-accent/30 grayscale hover:grayscale-0 transition-all duration-700 shadow-[0_15px_45px_-15px_hsl(217_60%_4%/0.8)]">
+                  <img
+                    src={dignanImg}
+                    alt="Portrait of Dignan Getz, founder of Akribeia"
+                    width={176}
+                    height={176}
+                    loading="lazy"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
               </div>
+              <h3 className="font-heading text-2xl text-foreground mb-1">
+                Dignan Getz <span className="text-accent">·</span>
+              </h3>
+              <p className="font-body text-xs tracking-widest uppercase text-accent/80 mb-8">Founder</p>
+              <p className="font-body text-base text-muted-foreground leading-relaxed text-left sm:text-center">
+                Dignan grew up in Washington, D.C., the oldest of four brothers — a position that
+                teaches you early how to set the tone, hold the standard, and build something the
+                people behind you can rely on. He studies accounting at Brigham Young University, and
+                outside the practice you'll find him on the tennis or pickleball court or training
+                MMA. Akribeia is the practice he built to do for other businesses what he was raised
+                to do for the people around him — set the foundation, hold the line, and make sure
+                what gets built is built to last.
+              </p>
             </div>
-            <h3 className="font-heading text-2xl text-foreground mb-1">
-              Dignan Getz <span className="text-accent">·</span>
-            </h3>
-            <p className="font-body text-xs tracking-widest uppercase text-accent/80 mb-8">Founder</p>
-            <p className="font-body text-base text-muted-foreground leading-relaxed text-left sm:text-center">
-              Dignan grew up in Washington, D.C., the oldest of four brothers — a position that
-              teaches you early how to set the tone, hold the standard, and build something the
-              people behind you can rely on. He studies accounting at Brigham Young University, and
-              outside the practice you'll find him on the tennis or pickleball court or training
-              MMA. Akribeia is the practice he built to do for other businesses what he was raised
-              to do for the people around him — set the foundation, hold the line, and make sure
-              what gets built is built to last.
-            </p>
+
+            <div className="text-center">
+              <div className="relative w-44 h-44 mx-auto mb-8">
+                <div
+                  aria-hidden
+                  className="absolute -inset-2 rounded-full bg-accent/10 blur-xl"
+                />
+                <div className="relative w-44 h-44 rounded-full overflow-hidden ring-1 ring-accent/30 grayscale hover:grayscale-0 transition-all duration-700 shadow-[0_15px_45px_-15px_hsl(217_60%_4%/0.8)]">
+                  <img
+                    src={founder2Img}
+                    alt="Portrait of co-founder of Akribeia"
+                    width={176}
+                    height={176}
+                    loading="lazy"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+              </div>
+              <h3 className="font-heading text-2xl text-foreground mb-1">
+                Co-Founder <span className="text-accent">·</span>
+              </h3>
+              <p className="font-body text-xs tracking-widest uppercase text-accent/80 mb-8">Founder</p>
+              <p className="font-body text-base text-muted-foreground/60 italic leading-relaxed text-center">
+                Bio coming soon.
+              </p>
+            </div>
           </div>
         </div>
+
       </div>
     </section>
   );
