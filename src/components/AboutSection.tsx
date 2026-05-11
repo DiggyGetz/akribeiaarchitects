@@ -1,5 +1,6 @@
 import { useScrollFadeIn } from "@/hooks/useScrollFadeIn";
 import dignanImg from "@/assets/dignan-getz-clean.jpg";
+import founder2Img from "@/assets/founder-2.png";
 import discobolus from "@/assets/discobolus-museum.jpg";
 import logo from "@/assets/logo-clean.png";
 
