@@ -1,4 +1,4 @@
-import { Calculator, Brain, Cog, Hammer } from "lucide-react";
+import { Calculator, Brain, LineChart, Hammer } from "lucide-react";
 import { useScrollFadeIn } from "@/hooks/useScrollFadeIn";
 
 const capabilities = [
@@ -7,9 +7,9 @@ const capabilities = [
     title: "Financial Systems Automation",
     body: "Books that close themselves, dashboards that don't lie, and cash-flow you can read at a glance.",
     examples: [
-      "Job-costing dashboard for a contractor across crews and trucks",
-      "Insurance-aging and AR follow-up automation for a dental office",
-      "QuickBooks ↔ field-service software reconciliation",
+      "Invoice, payment, and reconciliation flows wired between QuickBooks and the field",
+      "Document processing for receipts, statements, and insurance EOBs",
+      "Monthly reporting packets that build themselves the morning of the meeting",
     ],
   },
   {
@@ -17,29 +17,29 @@ const capabilities = [
     title: "AI Implementation",
     body: "Practical AI placed exactly where it earns its keep — never as a shiny object.",
     examples: [
-      "AI-assisted quote generation from voicemails and field photos",
-      "Automated review-collection and reputation responses for dentists",
-      "Inbox triage that routes the high-value lead to the owner first",
+      "Voice agents and AI receptionists that answer, qualify, and book after hours",
+      "Knowledge assistants trained on your SOPs, pricebooks, and past jobs",
+      "Lead follow-up sequences that text, email, and route by intent",
     ],
   },
   {
-    icon: Cog,
-    title: "Operations Infrastructure",
-    body: "The connective tissue between people, jobs, customers, and money.",
+    icon: LineChart,
+    title: "Predictive & Analytics AI",
+    body: "Numbers that look forward, not just back — so the next quarter isn't a guess.",
     examples: [
-      "Lead intake → CRM → scheduling → invoicing in one tracked flow",
-      "Dispatch and route planning for multi-crew service businesses",
-      "Patient or client onboarding sequences with no gaps",
+      "Sales and booking forecasts grounded in your own seasonal history",
+      "Job-cost and margin dashboards that flag the work bleeding money",
+      "Demand and capacity planning for crews, chairs, or appointment slots",
     ],
   },
   {
     icon: Hammer,
-    title: "Custom Build",
+    title: "Intelligent Systems Build",
     body: "When off-the-shelf won't fit, we draft and build the exact tool your business needs.",
     examples: [
-      "Internal tooling for estimators, schedulers, or office managers",
-      "Client portals for transparent billing and project status",
-      "Bespoke web presence engineered for trust and conversion",
+      "Custom internal tools for estimators, schedulers, and office managers",
+      "Client portals with AI-assisted quoting, intake, and project status",
+      "Decision dashboards that connect CRM, scheduling, and invoicing in one view",
     ],
   },
 ];
