@@ -33,9 +33,9 @@ export default function AboutSection() {
             </h2>
             <div className="space-y-5 font-body text-base text-muted-foreground leading-relaxed">
               <p>
-                <span className="text-foreground font-medium">Stoa Intelligence</span> (ἀκρίβεια) is the
-                Greek word for precision, exactness, and care — the standard a craftsman holds
-                himself to before anyone else asks him to.
+                The <span className="text-foreground font-medium">Stoa</span> (στοά) was the covered
+                colonnade where Greek philosophers taught discipline, reason, and steady judgment —
+                the standard a craftsman holds himself to before anyone else asks him to.
               </p>
               <p>
                 Our mark is the <span className="text-foreground font-medium">Discobolus</span> —
