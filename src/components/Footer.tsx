@@ -40,7 +40,7 @@ export default function Footer() {
               to stand on — measured, structural, and meant to last.
             </p>
             <p className="font-body text-xs text-foreground/50 italic">
-              Stoa Intelligence (ἀκρίβεια) — precision, exactness, care.
+              Stoa (στοά) — the colonnade where discipline and reason were taught.
             </p>
           </div>
 
