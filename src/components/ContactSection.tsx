@@ -71,7 +71,7 @@ export default function ContactSection() {
             <h3 className="font-heading text-xl text-foreground mb-3">Book a Free Walkthrough</h3>
             <p className="font-body text-sm text-muted-foreground leading-relaxed mb-6">
               A free 15-minute call. We listen, ask the right questions, and tell you whether
-              Akribeia is the right fit for what you need.
+              Stoa Intelligence is the right fit for what you need.
             </p>
             <span className="inline-flex items-center gap-2 font-body text-xs tracking-widest uppercase text-accent group-hover:gap-3 transition-all">
               Open Calendly <ArrowRight size={14} />
@@ -79,7 +79,7 @@ export default function ContactSection() {
           </a>
 
           <a
-            href={`mailto:${EMAIL}?subject=Akribeia%20Inquiry`}
+            href={`mailto:${EMAIL}?subject=Stoa Intelligence%20Inquiry`}
             className="bg-background p-10 group hover:bg-secondary/50 transition-colors duration-500"
           >
             <Mail className="text-accent mb-6" size={28} strokeWidth={1.25} />

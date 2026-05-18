@@ -28,19 +28,19 @@ export default function Footer() {
             <span className="flex items-center gap-2.5 font-heading text-lg mb-6">
               <img
                 src={logo}
-                alt="Akribeia Architects logo"
+                alt="Stoa Intelligence logo"
                 width={32}
                 height={32}
                 className="h-8 w-8 object-contain"
               />
-              Akribeia Architects
+              Stoa Intelligence
             </span>
             <p className="font-body text-sm text-foreground/70 leading-relaxed max-w-md mb-6">
-              Akribeia builds the financial, AI, and operational systems your business is supposed
+              Stoa Intelligence builds the financial, AI, and operational systems your business is supposed
               to stand on — measured, structural, and meant to last.
             </p>
             <p className="font-body text-xs text-foreground/50 italic">
-              Akribeia (ἀκρίβεια) — precision, exactness, care.
+              Stoa (στοά) — the colonnade where discipline and reason were taught.
             </p>
           </div>
 
@@ -90,7 +90,7 @@ export default function Footer() {
 
         <div className="border-t border-border/60 pt-8 flex flex-col md:flex-row md:items-center md:justify-between gap-4">
           <p className="font-body text-xs text-foreground/50">
-            © {new Date().getFullYear()} Akribeia Architects.
+            © {new Date().getFullYear()} Stoa Intelligence.
           </p>
           <p className="font-body text-xs text-foreground/50">
             Privacy and terms available on request — write us at{" "}
