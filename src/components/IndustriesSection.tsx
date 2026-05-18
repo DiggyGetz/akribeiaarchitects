@@ -39,7 +39,7 @@ export default function IndustriesSection() {
           When ambition <span className="text-accent">outpaces infrastructure.</span>
         </h2>
         <p className="font-body text-base text-muted-foreground text-center max-w-2xl mx-auto mb-16 leading-relaxed">
-          Akribeia works with smaller businesses and fast-growing operators who've started running
+          Stoa Intelligence works with smaller businesses and fast-growing operators who've started running
           into the limits of how they got here. We anchor in owner-operated trades and small
           practices, and extend the same precision to a curated set of professional and consumer
           SMBs.

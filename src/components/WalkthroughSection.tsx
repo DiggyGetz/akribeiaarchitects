@@ -121,7 +121,7 @@ export default function WalkthroughSection() {
         </h2>
         <p className="font-body text-base text-muted-foreground text-center max-w-2xl mx-auto mb-12 leading-relaxed">
           Answer seven short questions and we'll send back a personalized opportunity report — what
-          to fix first, what it would take, and whether Akribeia is the right fit. Or skip the form
+          to fix first, what it would take, and whether Stoa Intelligence is the right fit. Or skip the form
           and book a 15-minute call.
         </p>
 

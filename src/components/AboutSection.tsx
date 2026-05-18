@@ -25,15 +25,15 @@ export default function AboutSection() {
         <div className="grid md:grid-cols-2 gap-16 items-start mb-24">
           <div>
             <div className="mb-6">
-              <img src={logo} alt="Akribeia Discobolus mark" width={32} height={32} className="h-8 w-8 object-contain" />
+              <img src={logo} alt="Stoa Intelligence Discobolus mark" width={32} height={32} className="h-8 w-8 object-contain" />
             </div>
-            <p className="label-eyebrow mb-6">Why Akribeia</p>
+            <p className="label-eyebrow mb-6">Why Stoa Intelligence</p>
             <h2 className="font-heading font-normal text-3xl sm:text-4xl text-foreground mb-8 leading-snug">
               Precision is a <span className="text-accent">discipline</span>, not a personality trait.
             </h2>
             <div className="space-y-5 font-body text-base text-muted-foreground leading-relaxed">
               <p>
-                <span className="text-foreground font-medium">Akribeia</span> (ἀκρίβεια) is the
+                <span className="text-foreground font-medium">Stoa Intelligence</span> (ἀκρίβεια) is the
                 Greek word for precision, exactness, and care — the standard a craftsman holds
                 himself to before anyone else asks him to.
               </p>
@@ -83,7 +83,7 @@ export default function AboutSection() {
               <div className="relative w-44 h-44 rounded-full overflow-hidden ring-1 ring-accent/30 grayscale hover:grayscale-0 transition-all duration-700 shadow-[0_15px_45px_-15px_hsl(217_60%_4%/0.8)]">
                 <img
                   src={dignanImg}
-                  alt="Portrait of Dignan Getz, founder of Akribeia"
+                  alt="Portrait of Dignan Getz, founder of Stoa Intelligence"
                   width={176}
                   height={176}
                   loading="lazy"
@@ -100,7 +100,7 @@ export default function AboutSection() {
               teaches you early how to set the tone, hold the standard, and build something the
               people behind you can rely on. He studies accounting at Brigham Young University, and
               outside the practice you'll find him on the tennis or pickleball court or training
-              MMA. Akribeia is the practice he built to do for other businesses what he was raised
+              MMA. Stoa Intelligence is the practice he built to do for other businesses what he was raised
               to do for the people around him — set the foundation, hold the line, and make sure
               what gets built is built to last.
             </p>

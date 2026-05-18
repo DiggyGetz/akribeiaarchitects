@@ -8,7 +8,7 @@ type Props = {
  * (the discus arm) crossing a vertical plumb line. Used as a recurring
  * brand motif beside section headings.
  */
-export default function DiscobolusMark({ className, title = "Akribeia Discobolus mark" }: Props) {
+export default function DiscobolusMark({ className, title = "Stoa Intelligence Discobolus mark" }: Props) {
   return (
     <svg
       viewBox="0 0 48 48"

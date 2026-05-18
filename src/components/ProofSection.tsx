@@ -32,7 +32,7 @@ export default function ProofSection() {
 
       <div ref={ref} className="fade-in-section relative container mx-auto px-6 max-w-4xl text-center">
         <div className="flex justify-center mb-8">
-          <img src={logo} alt="Akribeia Discobolus mark" width={40} height={40} className="h-10 w-10 object-contain" />
+          <img src={logo} alt="Stoa Intelligence Discobolus mark" width={40} height={40} className="h-10 w-10 object-contain" />
         </div>
         <p className="font-body text-xs tracking-widest uppercase text-accent mb-6">
           Founding Clients
@@ -41,7 +41,7 @@ export default function ProofSection() {
           Three commissions open <span className="text-accent">this quarter.</span>
         </h2>
         <p className="font-body text-base text-foreground/75 leading-relaxed max-w-2xl mx-auto mb-6">
-          Akribeia is taking on a small, deliberate set of founding clients. Founding-client
+          Stoa Intelligence is taking on a small, deliberate set of founding clients. Founding-client
           engagements include locked pricing for 12 months, the founder's direct attention, and a
           public case-study credit if you choose to give one.
         </p>

@@ -45,12 +45,12 @@ export default function Header() {
         >
           <img
             src={logo}
-            alt="Akribeia Architects — Discobolus mark"
+            alt="Stoa Intelligence — Discobolus mark"
             width={32}
             height={32}
             className="h-8 w-8 object-contain shrink-0"
           />
-          Akribeia Architects
+          Stoa Intelligence
         </a>
 
         <nav className="hidden md:flex items-center gap-5 lg:gap-7">
